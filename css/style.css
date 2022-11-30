@@ -15,7 +15,24 @@ section.topo{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.logo img{
+    width: 25em;
+    height: 20em;
+}
+
+input{
+   padding: 18px 120px; 
+   border-radius: 10px;
+   font-size: 14px;
+   
+}
+
+.icons i{
+    margin-left: 10px;
+    color: yellow;
 }
 
 
