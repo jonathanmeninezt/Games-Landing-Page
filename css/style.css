@@ -2,43 +2,109 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,body{
     height: 100%;
 }
 
-section.topo{
-    width: 100%;
-    height: 170px;
+/*Classes gerais - Framework*/
+
+.text-white{
+    color: white;
+}
+
+.black1{
+    background-color: #0e0e0e;
+
+}
+
+.black2{
     background-color: black;
+}
+
+section.container{
+    width: 100%;
+}
+
+div.center{
     display: flex;
+    max-width: 1400px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+/* Clasess Específicas*/
+
+header{
+    height: 160px;
+    padding: 20px 0;
+
+}
+
+div.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
 
 .logo img{
-    width: 25em;
-    height: 20em;
+    width: 130px;
+    height: 110px;
 }
 
-input{
-   padding: 18px 120px; 
-   border-radius: 10px;
-   font-size: 14px;
-   
+div.input-text input{
+    padding: 15px 100px;
+    border-radius: 10px;
 }
 
-.icons i{
-    margin-left: 10px;
-    color: yellow;
+div.icons{
+    width: 20%;
+    padding: 8px 8px;
+    text-align: center;
 }
 
+div.icons i{
+    font-size: 25px;
+    color: gold;
+    margin: 0 10px;
+    
+}
 
+div.icons i:hover{
+    color: white;
+}
 
+nav.menu-desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    
+    
+}
 
+nav.menu-desktop ul{
+    display: flex;
+    
+}
 
+nav.menu-desktop ul li{
+    margin: 0 20px;
+        
+}
 
+nav.menu-desktop ul li a{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 
