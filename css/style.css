@@ -26,6 +26,7 @@ html,body{
 
 section.container{
     width: 100%;
+    
 }
 
 div.center{
@@ -65,17 +66,20 @@ div.icons{
     width: 20%;
     padding: 8px 8px;
     text-align: center;
+    
 }
 
 div.icons i{
     font-size: 25px;
     color: gold;
     margin: 0 10px;
+    transition: 1s;
+    cursor: pointer;
     
 }
 
 div.icons i:hover{
-    color: white;
+    color: red;
 }
 
 nav.menu-desktop{
@@ -105,6 +109,126 @@ nav.menu-desktop ul li a{
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    transition:1s;
+    cursor: pointer;
 }
 
+nav.menu-desktop ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
 
+video{
+    width: 100%;
+}
+
+.box{
+    max-width: 1500px;
+    margin: 200px 80px;
+}
+
+.box h2{
+   font-size: 18px;
+   font-weight: 800;
+   text-transform: uppercase; 
+   text-align: center;
+}
+
+.box h4{
+    font-size: 13px;
+    text-align: center;
+}
+
+.box span{
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.box p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.box input[type=submit]{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 8px 50px;
+    cursor: pointer;
+    border: 0;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20px;
+    
+}
+
+.box input[type=submit]:hover{
+   background-color: gold;
+   
+}
+footer{
+    width: 100%;
+}
+
+footer .box-img{
+    width: 40%;
+    display: flex;
+    align-items: center;   
+}
+
+.box-img img{
+    margin-top: 150px;
+    width: 18em;
+}
+
+footer .box-text{
+    margin-top: 210px;
+    margin-left: 500px;
+    
+   
+}
+
+.box-text h2{
+    font-size: 18px;
+    font-weight: 300;
+    font-family:'Poppins', sans-serif;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box-text h2:hover{
+   color: red;
+}
+
+.botton-end h2{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0 10px;
+}
+
+.botton-end input[type=email]{
+    padding: 5px 60px;
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+.botton-end input[type=submit]{
+    padding: 5px 60px;
+    margin: 0 15px;
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+
+}
+
+.botton-end input[type=submit]:hover{
+    color: gold;
+    cursor: pointer;
+
+}
