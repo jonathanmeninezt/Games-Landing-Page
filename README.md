@@ -3,12 +3,13 @@
 <p>Landing page Game</p>
 </h1>
 
+<div>
 <img src="img/home.gif">
 <img src="img/barner.gif">
 <img src="img/lancamento1.gif">
 <img src="img/lancamento2.gif">
 <img src="img/contato.gif">
-
+</div>
 
 ## 📘 Sobre
 <h1></h1>
